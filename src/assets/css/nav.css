@@ -1,0 +1,53 @@
+.site__logo h2 {
+  color: black;
+}
+
+.navigation {
+  border-bottom: 1px solid #6c63ff;
+  background-color: #ffffff;
+  color: white;
+  padding: 12px 0;
+}
+
+.navigation__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.navigation__items {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  color: #6c63ff;
+}
+
+.auth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth-btn {
+  background-color: transparent;
+  border: none;
+  color: #6c63ff;
+}
+
+.register-btn {
+  background-color: #fad441;
+  border: 1.5px solid black;
+  color: black;
+}
+
+.login {
+  margin-right: 10px;
+}
+
+.login-btn {
+  border: 2px solid #6c63ff;
+}
